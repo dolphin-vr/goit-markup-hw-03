@@ -1,0 +1,156 @@
+:root{
+    --pri-brand: #4d5ae5; /* iris */
+    --press-state: #404bbf; /* ocean */
+    --dark: #2e2f42; /* navy-blue */
+    --success: #31d0aa; /* green */
+    --main-text: #434455; /* slate */
+    --hero-bg: #2e2f42; /* grey */
+    --subtle-text: #8e8f99; /* light-slate */
+    --accent: #e7e9fc; /* cornflower */
+    --light: #f4f4fd; /* cloud */
+    --modal-overlay: #2e2f42; /* navy-blue-modal */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text);
+}
+
+.base-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text);
+}
+
+.unmarked{
+    list-style: none;
+}
+
+.no-under{
+    text-decoration: none;
+}
+
+.navi{
+    color: var(--dark);
+}
+
+.whitecol{
+    color: #ffffff;
+}
+
+.invisible{
+    display: none;
+}
+/* ======= HEADER ======= */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--pri-brand);
+}
+
+.menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+.menu-link:hover,
+.menu-link:focus,
+.addr-link:hover,
+.addr-link:focus{
+    color: var(--press-state);
+}
+
+.addr-link{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text);
+}
+/* ======= /HEADER ======= */
+
+/* ======= HERO ======= */
+.hero{
+    background: #2E2F42;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+/* ======= HERO ======= */
+
+.btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.order-btn{
+    color: #FFFFFF;
+    background: var(--pri-brand);
+}
+.order-btn:hover,
+.order-btn:focus{
+    background: var(--press-state);    
+}
+
+.radio-btn{
+    color: var(--pri-brand);
+    background-color: var(--light);
+}
+.radio-btn:hover,
+.radio-btn:focus{
+    color: #ffffff;
+    background-color: var(--press-state);
+}
+
+/* ======= PRINCIPLE ======= */
+
+.principle-title,
+.teammate-title,
+.project-list h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+/* ======= /PRINCIPLE ======= */
+
+/* ======= ACTIVITIES ======= */
+.activitie-title,
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+/* ======= /ACTIVITIES ======= */
+
+/* ======= TEAM ======= */
+
+/* ======= /TEAM ======= */
+
+.page-footer{
+    background-color: var(--dark);
+}
+.cloud{
+    color: var(--light);
+}
