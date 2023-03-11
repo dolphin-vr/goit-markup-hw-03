@@ -279,12 +279,11 @@ p {
 /* ======= FOOTER ======= */
 .footer {
     background-color: var(--dark);
-}
-
-.footer .container {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.footer .container {}
 
 .footer .logo {
     display: block;
@@ -300,7 +299,7 @@ p {
 }
 
 /* ----=  Portfolio =---- */
-.projects .container {
+.projects {
     padding-top: 96px;
     padding-bottom: 120px;
 }
